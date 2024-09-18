@@ -17,14 +17,16 @@ To address these issues, this project aims to build an AI data analysis program 
 
 ## Usage
 
-1. Prepare the data to be analyzed:
-   - Files (e.g., `.csv`, `.xlsx`)
-   - Databases
-   - HBase file URL
+### Jupyter Notebook Example
 
-2. In the prompt, specify the location of the data for analysis.
-3. Execute the program.
-4. View the AI’s analysis results through the execution log.
+For a step-by-step demonstration of how the AI-driven data analysis is performed, you can check out the Jupyter Notebook: [`dataframe_graph.ipynb`](dataframe_graph.ipynb).
+
+This notebook provides a detailed walkthrough of the analysis process, including:
+- Loading data from various sources
+- Performing exploratory data analysis (EDA)
+- Utilizing the Langchain agent for generating insights and visualizations
+
+Feel free to explore the notebook to better understand how to leverage this tool for your data analysis tasks.
 
 ## Project Structure
 The project is built around **langgraph** where each step is defined as a node, with edges connecting nodes based on the analysis sequence. The primary nodes include:
